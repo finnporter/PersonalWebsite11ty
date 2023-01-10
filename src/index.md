@@ -1,6 +1,6 @@
 ---
 # This is a full listing of available Frontmatter options, available for any content (.md) file.
-title: Finn Porter
+title: Home
 layout: page
 excerpt: # used for page excerpts and META (will be overwritten if SEO used below)
 author: finn-porter # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
@@ -24,12 +24,12 @@ heroSettings:
     video: pixabay-john-macdougall.mp4 # local relative /assets/video/, or full https://... if remote?
     opacityMobile: opacity-50 # options opacity-n, 5, 10, 15, 20, 25, 50, 75, 100 (default)
     opacityDesktop: opacity-75 # Leave blank to inherit opacityMobile, use same options as opacityMobile
-  headingText: Is your data lost in the forest,<br>or the trees?
+  headingText: It's me. Hi!
   headingTextColor: # default = text-white (can use any TailwindCSS text-[color]-[xxx])
   headingTextCase: # default = as typed - options: uppercase, lowercase, capitalize
   subheadingText: Software Developer. Non-binary. Autistic.
   subheadingTextColor: # Leave empty to inherit headingTextColor or default (text-white) or use any text-[color]-[xxx]
-  buttonText: Contact Me... # no button generated if left blank
+  buttonText: Get in touch... # no button generated if left blank
   buttonURL: /contact/ # full url required. Example: https://thisdomain.com/somepage/
   buttonTextColor: # leave blank to inherit from /src/_data/colors.buttonCustom or buttonDefault
   buttonBgColor: # leave blank to inherit from /src/_data/colors.buttonCustom.bg or buttonDefault.bg
