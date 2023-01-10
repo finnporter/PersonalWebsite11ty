@@ -1,12 +1,12 @@
 ---
 # This is a full listing of available Frontmatter options, available for any content (.md) file.
-title: Let's talk about static sites!
+title: Finn Porter
 layout: page
 excerpt: # used for page excerpts and META (will be overwritten if SEO used below)
-author: shane-robinson # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
+author: finn-porter # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
 eleventyNavigation: # Required if want to display in Main Nav Bar
   key: main # "main" is required
-  title: Welcome # as it will appear in the nav
+  title: Home # as it will appear in the nav
   order: 1 # order to display in the nav (index = 1)
 seo: # SEO values are used for OG and will overwrite 'title' and 'excerpt' above
   title:
@@ -27,9 +27,9 @@ heroSettings:
   headingText: Is your data lost in the forest,<br>or the trees?
   headingTextColor: # default = text-white (can use any TailwindCSS text-[color]-[xxx])
   headingTextCase: # default = as typed - options: uppercase, lowercase, capitalize
-  subheadingText: This is some pithy text that explains why you should hire us without reading any further... Or is it farther?
+  subheadingText: Software Developer. Non-binary. Autistic.
   subheadingTextColor: # Leave empty to inherit headingTextColor or default (text-white) or use any text-[color]-[xxx]
-  buttonText: Contact Us... # no button generated if left blank
+  buttonText: Contact Me... # no button generated if left blank
   buttonURL: /contact/ # full url required. Example: https://thisdomain.com/somepage/
   buttonTextColor: # leave blank to inherit from /src/_data/colors.buttonCustom or buttonDefault
   buttonBgColor: # leave blank to inherit from /src/_data/colors.buttonCustom.bg or buttonDefault.bg
