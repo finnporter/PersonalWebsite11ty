@@ -13,7 +13,7 @@ seo:
 
 <div class="relative bg-white mt-8">
   <div class="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
-    <div class="px-4 py-4 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 lg:py-8 xl:pr-12">
+    <div class="px-4 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 xl:px-12">
       <div class="max-w-lg mx-auto">
         <h2 class="text-3xl font-extrabold leading-8 tracking-tight text-gray-600 sm:text-3xl sm:leading-9">
           Get in touch
@@ -35,11 +35,11 @@ seo:
         </dl>
       </div>
     </div>
-    <div class="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+    <div class="px-4 py-4 bg-white sm:px-6 lg:col-span-3 lg:py-8 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
         <form name="contact" action="/thankyou" method="POST" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field" data-netlify="true" class="grid grid-cols-1 row-gap-6">
           <p class="hidden">
-            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            <label>I am human: <input name="bot-field" /></label>
           </p>
           <div>
             <label for="full_name" class="sr-only">Full name</label>
@@ -74,7 +74,6 @@ seo:
             </span>
           </div>
         </form>
-        <div class="p-4 italic text-gray-600 bg-indigo-100 border rounded-lg border-indego-300">This form uses the <a class="font-semibold text-indigo-700 underline" href="https://docs.netlify.com/forms/spam-filters/#extra-spam-prevention">basic spam and recaptcha features provided by Netlify</a> . But you could wire in your own form validation if you like. Take a look at <a class="font-semibold text-indigo-700 underline" href="https://github.com/mattkingshott/iodine">Iodine.js</a> if you don't already have a fave form validator.</div>
       </div>
     </div>
   </div>

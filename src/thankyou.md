@@ -1,9 +1,7 @@
 ---
 title: Thank you for getting in touch
-date: 2020-08-05
+date: 2023-01-15
 layout: page
 ---
 
-We appreciate you contacting us!
-
-We will reply as soon as possible.
+I will reply as soon as possible.
